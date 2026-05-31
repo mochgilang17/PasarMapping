@@ -347,3 +347,73 @@ body {
         font-size: 1rem;
     }
 }
+
+/* Tampilan Section Price List */
+.pricelist-section {
+    padding: 60px 0;
+    background-color: #1a1a1a; /* Sesuaikan dengan tema gelap web Anda */
+    color: #ffffff;
+}
+.pricelist-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.pricelist-section .section-subtitle {
+    text-align: center;
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
+.table-responsive {
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 15px;
+}
+.pricelist-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #242424;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.pricelist-table th, .pricelist-table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #333333;
+}
+.pricelist-table th {
+    background-color: #ff4500; /* Ganti dengan warna aksen/brand PasarMapping Anda */
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.pricelist-table tr:hover {
+    background-color: #2d2d2d;
+}
+.service-name {
+    color: #ff4500; /* Warna highlight untuk nama layanan */
+}
+.price-value {
+    font-weight: bold;
+    color: #00ff7f; /* Warna hijau khas uang game/realistis */
+}
+.price-value span {
+    font-size: 0.85rem;
+    color: #888888;
+    font-weight: normal;
+}
+.pricelist-notes {
+    max-width: 1000px;
+    margin: 30px auto 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+.social-media-section {
+    background-color: #ffffff; /* atau ganti dengan warna gelap sesuai tema hero section */
+    color: #333333;
+}
